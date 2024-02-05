@@ -1,0 +1,48 @@
+# .gitignore for Django projects in VSCode
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyz
+*.pyw
+*.pyproj
+*.pycachefile
+
+# Virtual environment
+venv/
+env/
+__env__/
+ENV/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Local development settings
+settings_local.py
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Django development server
+*.log
+*.pid
+*.pyz
+*.pyo
+*.pyw
+*.pyproj
