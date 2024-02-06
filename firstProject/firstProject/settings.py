@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     
     # local apps 
     'firstApp',
+    'demoApp',
+    'timeapp',
 ]
 
 MIDDLEWARE = [
