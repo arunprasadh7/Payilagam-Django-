@@ -27,4 +27,6 @@ urlpatterns = [
     path('ga/',dv.ga_view),
     path('ge/',dv.ge_view),
     path('timeapp/',include('timeapp.urls')),
+    path('demoTemplate/',include('demoTemplate.urls')),
 ]
+

@@ -1,0 +1,17 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Template</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+  </head>
+  <body>
+    <h1>Templates are seperated HTML files</h1>
+    <h3>Current Time is : {{date}}</h3>
+    <h3>{{message}} {{name}}!!</h3>
+    <img src="{% static 'images/wall.jpg' %}" alt="demo image" />
+  </body>
+</html>
